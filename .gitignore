@@ -9,4 +9,6 @@
 cache/
 __pycache__/
 *.tmp
+.~lock.*#
+
 
