@@ -61,27 +61,38 @@ Evaluated on 19,600 untouched out-of-time test observations (2025–2026):
 ├── master_dataset.csv                   # Raw S&P 500 OHLCV daily data (125,650 rows × 9 cols)
 ├── processed_dataset.csv                # Preprocessed intermediate data (123,150 rows × 45 cols)
 ├── stocks.db                            # SQLite database containing stock_data, model_features, results
-├── plots/                               # EDA figures (sector trends, return distributions, RSI)
-│   ├── 01_sector_price_trend.png
-│   ├── 02_return_distribution_by_sector.png
-│   ├── 03_sector_correlation_heatmap.png
-│   ├── 04_rsi_distribution.png
-│   ├── 05_breakout_frequency_by_sector.png
-│   └── 06_sample_stock_breakout.png
+├── plots/                               # Categorized project visualizations
+│   ├── README.md                        # Visualizations index and directory guide
+│   ├── eda/                             # Exploratory Data Analysis figures (6 PNGs + README.md)
+│   │   ├── 01_sector_price_trend.png
+│   │   ├── 02_return_distribution_by_sector.png
+│   │   ├── 03_sector_correlation_heatmap.png
+│   │   ├── 04_rsi_distribution.png
+│   │   ├── 05_breakout_frequency_by_sector.png
+│   │   ├── 06_sample_stock_breakout.png
+│   │   └── README.md
+│   └── ml/                              # Machine Learning evaluation figures (6 PNGs + README.md)
+│       ├── 01_roc_curves_test.png
+│       ├── 02_precision_recall_curves_test.png
+│       ├── 03_model_comparison_test.png
+│       ├── 04_tuning_improvement.png
+│       ├── 05_feature_importance.png
+│       ├── 06_confusion_matrix_best_model.png
+│       └── README.md
 ├── results/                             # Model comparison outputs, logs, and artifacts
+│   ├── README.md                        # Complete audit of benchmark metrics and artifacts
 │   ├── final_comparison_table.csv
 │   ├── feature_importance.csv
 │   ├── feature_selection_dropped.csv
-│   ├── plots/                           # Evaluation plots
-│   │   ├── 01_roc_curves_test.png
-│   │   ├── 02_precision_recall_curves_test.png
-│   │   ├── 03_model_comparison_test.png
-│   │   ├── 04_tuning_improvement.png
-│   │   ├── 05_feature_importance.png
-│   │   └── 06_confusion_matrix_best_model.png
 │   └── *.rds                            # Serialized model predictions and parameter configurations
-└── Final_Report/                        # Academic documentation (DOCX & PDF formats)
+└── Final_Report/                        # Comprehensive academic project documentation
+    ├── README.md                        # Academic report guide and compilation instructions
+    ├── FULL_ACADEMIC_REPORT.md          # Complete master academic report in Markdown
+    ├── Final_Academic_Report.docx       # Publication-ready formatted Word document (25 pages)
+    ├── Final_Academic_Report.pdf        # Verified academic PDF document (exactly 25 pages)
+    └── build_report.R                   # Pure R compilation and verification script
 ```
+
 
 ---
 

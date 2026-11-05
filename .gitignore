@@ -6,5 +6,7 @@
 
 # Cache and temp files
 .cache/
+cache/
 __pycache__/
 *.tmp
+
