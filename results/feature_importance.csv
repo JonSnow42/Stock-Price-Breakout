@@ -1,0 +1,37 @@
+"model","feature","importance"
+"Gradient Boosting","Dist_High_20",43.1334441648698
+"Gradient Boosting","Log_Vol_Ratio",40.5718090994679
+"Gradient Boosting","Breakout_Today",4.38762769792098
+"Gradient Boosting","Return_5d",2.22443604902174
+"Gradient Boosting","Daily_Return",1.22346613067774
+"Gradient Boosting","SMA20_vs_SMA50",1.21223034637556
+"Gradient Boosting","RSI_14",1.18875307974211
+"Gradient Boosting","Range_Pct",1.06568105705384
+"Gradient Boosting","MACD_Pct",0.908215545858672
+"Gradient Boosting","Sector_Technology",0.867330395012444
+"Gradient Boosting","BB_Width",0.664907363512165
+"Gradient Boosting","Return_10d",0.656750113776504
+"Random Forest","Log_Vol_Ratio",12.4167416389693
+"Random Forest","Dist_High_20",9.7374352049496
+"Random Forest","Daily_Return",7.60580191284933
+"Random Forest","Return_5d",7.5926261060911
+"Random Forest","Return_10d",7.39736304763777
+"Random Forest","RSI_14",7.38360872733704
+"Random Forest","Volatility_20",6.75480107252548
+"Random Forest","BB_Width",6.58018775847331
+"Random Forest","Range_Pct",6.56766615545349
+"Random Forest","Return_lag1",6.49437572836355
+"Random Forest","SMA20_vs_SMA50",6.43963382521206
+"Random Forest","MACD_Pct",6.41809204324654
+"XGBoost","Dist_High_20",32.8870525161927
+"XGBoost","Log_Vol_Ratio",25.0255694724959
+"XGBoost","Breakout_Today",5.2370618180786
+"XGBoost","RSI_14",5.1909715974964
+"XGBoost","Return_5d",5.01577081496632
+"XGBoost","Return_10d",4.31406162907658
+"XGBoost","Daily_Return",4.14069585594964
+"XGBoost","Range_Pct",3.04513163709716
+"XGBoost","SMA20_vs_SMA50",2.87638773427452
+"XGBoost","Return_lag1",2.70513524320718
+"XGBoost","Volatility_20",2.60027431462048
+"XGBoost","MACD_Pct",2.25753590148026

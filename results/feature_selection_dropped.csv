@@ -1,0 +1,4 @@
+"feature","reason"
+"Price_vs_SMA50","correlated with MACD_Pct (|r| = 0.93)"
+"ATR_Pct","correlated with Volatility_20 (|r| = 0.92)"
+"Price_vs_SMA20","correlated with Return_10d (|r| = 0.91)"

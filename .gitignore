@@ -1,0 +1,10 @@
+# R environment files
+.RData
+.RDataTmp
+.Rhistory
+.Rproj.user
+
+# Cache and temp files
+.cache/
+__pycache__/
+*.tmp
