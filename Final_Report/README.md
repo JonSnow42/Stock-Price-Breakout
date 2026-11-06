@@ -7,13 +7,17 @@
 
 ---
 
-## 📄 Deliverable Documents
+## 📄 Deliverable Documents & Presentation Deck
 
-1. **`Final_Academic_Report.docx`:** Fully styled, editable Microsoft Word document with professional academic typography, custom headings, structured tables, and embedded high-resolution figures.
-2. **`Final_Academic_Report.pdf`:** Complete, publication-ready PDF document compiled with exact 25-page formatting and verified page-synchronized Table of Contents.
-3. **`FULL_ACADEMIC_REPORT.md`:** Complete, exhaustive master text of the academic project report in GitHub-flavored Markdown with complete mathematical derivations, code walkthroughs, tables, and analytical narratives.
-4. **`update_docx.R`:** Pure R script to unstack image tables, enlarge figure dimensions by 55%, shorten prose by 15-20%, and maintain the verified 25-page academic layout.
-5. **`build_report.R`:** Standalone R verification script to validate report documents and pagination.
+1. **`Stock_Market_Breakout_Presentation.pptx`:** Clean, professional 14-slide widescreen presentation deck for capstone defense with official VIT branding, high-resolution figures, model comparison table, and zero Python dependencies.
+2. **`Stock_Market_Breakout_Presentation.pdf`:** Presentation slides exported directly to high-resolution vector PDF (14 slides, 16:9).
+3. **`Stock_Market_Breakout_Presentation.md`:** Slide-by-slide transcript, presentation structure, and comprehensive speaker notes for defense and viva voce.
+4. **`build_presentation.R`:** Pure R script to execute PPTX generation and headless LibreOffice PDF export.
+5. **`Final_Academic_Report.docx`:** Fully styled, editable Microsoft Word document with professional academic typography, custom headings, structured tables, and enlarged high-resolution figures.
+6. **`Final_Academic_Report.pdf`:** Complete, publication-ready PDF document compiled with exact 25-page formatting and verified page-synchronized Table of Contents.
+7. **`FULL_ACADEMIC_REPORT.md`:** Complete, exhaustive master text of the academic project report in GitHub-flavored Markdown with complete mathematical derivations, code walkthroughs, tables, and analytical narratives.
+8. **`update_docx.R`:** Pure R script to unstack image tables, enlarge figure dimensions by 55%, shorten prose by 15-20%, and maintain the verified 25-page academic layout.
+9. **`build_report.R`:** Standalone R verification script to validate report documents and pagination.
 
 
 ---

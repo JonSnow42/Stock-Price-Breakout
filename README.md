@@ -90,6 +90,10 @@ Evaluated on 19,600 untouched out-of-time test observations (2025–2026):
     ├── FULL_ACADEMIC_REPORT.md          # Complete master academic report in Markdown
     ├── Final_Academic_Report.docx       # Publication-ready formatted Word document (25 pages)
     ├── Final_Academic_Report.pdf        # Verified academic PDF document (exactly 25 pages)
+    ├── Stock_Market_Breakout_Presentation.pptx # 14-slide widescreen capstone presentation deck
+    ├── Stock_Market_Breakout_Presentation.pdf  # Presentation slides in high-resolution PDF
+    ├── Stock_Market_Breakout_Presentation.md   # Presentation script and speaker notes
+    ├── build_presentation.R             # R script to orchestrate presentation generation
     └── build_report.R                   # Pure R compilation and verification script
 ```
 
