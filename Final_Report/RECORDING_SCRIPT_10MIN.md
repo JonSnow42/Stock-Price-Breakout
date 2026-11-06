@@ -241,17 +241,19 @@ Remember: in the normal market, only 1 in 50 days is a breakout. Our system impr
 
 ---
 
-#### **[9:55 - 10:30] Slide 14: Conclusion & Wrap-Up**
+#### **[9:55 - 10:30] Slide 14: Conclusion & Summary**
 > *[Show Slide 14 on screen — Look back at the camera]*
 
-"To wrap up our presentation:
+"To quickly wrap up everything in one simple picture:
 
-1. We proved that data science can reliably spot pre-breakout setups 24 hours in advance without any cheating or lookahead bias.
-2. Price proximity to resistance plus sudden volume expansion drive 84% of the predictive power.
-3. Gradient Boosting was our champion, beating random chance by 8 times.
-4. Our entire project—the R scripts, the SQLite database, our 25-page academic report, and these slides—is open-source and available on GitHub at `JonSnow42/Stock-Price-Breakout`.
+- **The Problem:** Traders want to catch big stock breakouts early, but doing it manually is pure guesswork full of fake alarms.
+- **The Data:** We took 10 full years of stock market data—over 1.25 lakh rows across 50 major US companies—and organized it cleanly inside an SQLite database.
+- **The Analysis:** We explored sector behaviors, cleaned our features with zero cheating, and tested 10 different models.
+- **The Result:** The data proved that a tight price under the ceiling plus a sudden jump in volume explains **84% of all breakouts**. Our top model, Gradient Boosting, beat random guessing by **8 times**, delivering a 1 in 5 real win rate!
 
-Thank you very much for listening, and I hope this gave you a clear and simple understanding of my project!"
+All our R code, SQLite database, academic report, and slides are completely open-source on GitHub at `JonSnow42/Stock-Price-Breakout`.
+
+Thank you so much for your time, and that's my project!"
 
 ---
 
